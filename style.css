@@ -1,11 +1,42 @@
+.canva{
+    background-color: bisque;
+}
+
 .container{
     align-items: center;
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    
 }
 
 .header{
     justify-content: center;
     display: flex;
+}
+
+#results{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+button{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #333; 
+    background-color: #f2f2f2; 
+    border: 2px solid #ccc; 
+    border-radius: 4px;
+    cursor: pointer;
+    
 }
