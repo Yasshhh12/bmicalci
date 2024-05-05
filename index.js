@@ -21,7 +21,7 @@ form.addEventListener('submit',function(e){
     else{
 
         const bmi = (weight/((height*height)/10000)).toFixed(2);
-        let message = `<b>Your BMI is ${bmi}</b>`;
+        let message = `<b>Your BMI is ${bmi} </b>`;
 
         if (bmi < 18.6) {
             message += `<br>You are Underweight!!`;
